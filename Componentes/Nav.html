@@ -1,0 +1,27 @@
+<nav class="navbar navbar-expand-lg bg-dark">
+  <a class="navbar-brand text-light" style="margin:0 50px;" href="index.php">LibroCaine Centu</a>
+  <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <div class="btn-togle-1">
+      <i class="bi-book fs-1 text-light"></i>
+    </div>
+  </button>
+
+  <div class="collapse navbar-collapse " id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-light" href="Autores.php">Autores</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="Libros.php">Libros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-light" href="GoogleBooks.php">Google Books</a>
+      </li>
+    </ul>
+    <form class="d-flex" action="BuscarUnLibro.php" method="POST">
+      <input class="form-control" type="search" name="titulo" placeholder="Titulo del libro" aria-label="Search">
+      <button class="btn btn-info" type="submit" style="height:45px;">Buscar</button>
+    </form>
+  </div>
+</nav>
